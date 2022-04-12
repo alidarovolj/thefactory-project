@@ -1,9 +1,9 @@
 <template>
   <div class="bg-black px-5 lg:px-0">
     <div class="container mx-auto">
-      <div class="flex items-center justify-between py-9">
+      <div class="flex items-center justify-between py-5 lg:py-9">
         <router-link to="/">
-          <img src="../assets/img/logo.png" alt=""
+          <img class="h-8 lg:h-20" src="../assets/img/logo.png" alt=""
         /></router-link>
         <router-link
           class="text-white flex items-center"
