@@ -14,7 +14,9 @@ export default {
         }
     },
     actions: {
-        async getData({ commit }) {
+        async getData({
+            commit
+        }) {
             const res = await axios.get("http://localhost:3001/images");
             const newData = res.data;
             commit('getData', newData);
